@@ -43,10 +43,10 @@ const BlogDetailsScreen = ({ history, match }) => {
                     </Card.Body>
                 }
             </Card>
-            <LinkContainer to={`/update/${blogId}`}>
+            {/* <LinkContainer to={`/update/${blogId}`}>
                 <Button variant="secondary" className="mt-3 mr-2">Update Post</Button>
             </LinkContainer>
-            <Button onClick={handleClick} variant="danger" className="mt-3">Delete Post</Button>
+            <Button onClick={handleClick} variant="danger" className="mt-3">Delete Post</Button> */}
         </>
     )
 }

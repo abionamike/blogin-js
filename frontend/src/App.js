@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import AboutScreen from './screens.js/AboutScreen';
 import BlogDetailsScreen from './screens.js/BlogDetailsScreen';
 import CreateScreen from './screens.js/CreateScreen';
@@ -20,6 +21,7 @@ function App() {
             <Route path="/update/:id" component={UpdatePostScreen} />
           </Switch>
         </main> 
+        <Footer />
       </BrowserRouter>
   );
 }
